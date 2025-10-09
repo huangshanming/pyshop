@@ -1,0 +1,6 @@
+Syntax = "proto3"
+option go_package = ".;proto"
+
+service User {
+    rpc GetUserList() returns (UserListResponse);
+}
